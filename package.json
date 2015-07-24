@@ -12,7 +12,7 @@
     "nlcst-to-string": "^0.1.5",
     "node-wikipedia": "0.0.1",
     "parse-english": "^0.4.3",
-    "twit": "^2.1.0",
+    "twit": "lafiosca/twit",
     "wikifetch": "0.0.2"
   },
   "engines": {
