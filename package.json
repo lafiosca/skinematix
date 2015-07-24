@@ -1,0 +1,25 @@
+{
+  "name": "skinematix",
+  "version": "0.0.1",
+  "description": "A Twitter bot by @joelafiosca for sharing thrilling, erotic musings",
+  "main": "skinematix.js",
+  "scripts": {
+    "start": "node skinematix.js"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0",
+    "moment": "^2.10.3",
+    "nlcst-to-string": "^0.1.5",
+    "node-wikipedia": "0.0.1",
+    "parse-english": "^0.4.3",
+    "twit": "^2.1.0",
+    "wikifetch": "0.0.2"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lafiosca/skinematix"
+  }
+}
