@@ -68,17 +68,13 @@ function skinematix(tryNum) {
 
             console.log(sentence);
 
-            T.post(
-                'statuses/update',
-                {status: sentence},
-                function(err, data, response) {
-                    if (err) {
-                        console.log('tweet error:' + JSON.stringify(err));
-                    } else {
-                        console.log('tweeted');
-                    }
+            T.autoTweet(sentence, '(%n/%m) %s', function(err, count) {
+                if (err) {
+                    console.log('tweet error:' + JSON.stringify(err));
+                } else {
+                    console.log('tweeted ' + count + ' part(s)');
                 }
-            );
+            });
         });
     });
 
